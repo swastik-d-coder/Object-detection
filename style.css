@@ -1,14 +1,22 @@
-.heading{
-    background-color: rgba(0, 30, 150, 0.327);
-    border-radius: 75px;
-    font-family: Algerian;
-    font-size: 50px;
-    color: red;
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
 }
 
-a{
-    font-family: Bodoni MT Black;
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-    
+#status, #number_of_objects, #start_model
+{
+font-size: 18px;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+}
+canvas{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    margin-top: 30px;
 }
